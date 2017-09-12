@@ -1,0 +1,100 @@
+.game-board {
+    width: 64vh;
+    height: 64vh;
+    /* display: flex;
+    justify-content: space-between; */
+}
+
+.game-title {
+    font-size: 8vh;
+}
+
+.game-alert {
+    font-size: 3em;
+}
+
+.game-restart {
+    font-size: 2em;
+}
+
+.game-restart span {
+    background-color: #fff;
+    padding: 10px 16px;
+}
+
+.game-restart span:hover {
+    color: #fff;
+    background-color: #CC324D;
+    padding: 10px 16px;
+    cursor: pointer;
+}
+
+.square {
+    width: 20vh;
+    height: 20vh;
+    display: inline-block;
+    background-color: #fff;
+    text-align: center;
+    line-height: 20vh;
+    font-size: 20vh;
+}
+
+.sq-available {
+    visibility: hidden;
+    cursor: pointer;
+    cursor: hand;
+}
+
+.sq-unavailable {
+    cursor: default;
+}
+
+.sq-winner {
+    color: #CC324D;
+}
+
+.sq-hidden {
+    visibility: hidden;
+    cursor: auto;
+}
+
+.square:hover>.sq-available:not(.sq-hidden) {
+    height: 100%;
+    visibility: visible;
+}
+
+.sq-0 {
+    margin: 0 1vh 1vh 0;
+}
+
+.sq-1 {
+    margin: 0 1vh 1vh 1vh;
+}
+
+.sq-2 {
+    margin: 0 0 1vh 1vh;
+}
+
+.sq-3 {
+    margin: 1vh 1vh 1vh 0;
+}
+
+.sq-4 {
+    margin: 1vh;
+}
+
+.sq-5 {
+    margin: 1vh 0 1vh 1vh;
+}
+
+.sq-6 {
+    margin: 1vh 1vh 0 0;
+}
+
+.sq-7 {
+    margin: 1vh 1vh 0 1vh;
+}
+
+.sq-8 {
+    margin: 1vh 0 0 1vh;
+}

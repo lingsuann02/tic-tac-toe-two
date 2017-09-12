@@ -1,3 +1,9 @@
+## Important Notes ## 
+
+This repo was created because some libraries from [tic-tac-toe](https://github.com/lingsuann02/tic-tac-toe) are now deprecated the old build does not run reliably so the [tic-tac-toe](https://github.com/lingsuann02/tic-tac-toe) code has been ported to use the newer Angular CLI create app.
+
+The project can be seen running here: saling-tic-tac-toe.surge.sh
+
 # TicTacToeTwo
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.1.
